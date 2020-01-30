@@ -1,0 +1,358 @@
+@font-face{
+    font-family: 'Telefonica-Bold';
+    src: url('../fonts/Telefonica/Bold/TelefonicaWeb-Bold.eot');
+    src: url('../fonts/Telefonica/Bold/TelefonicaWeb-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/Bold/TelefonicaWeb-Bold.woff') format('woff'),
+         url('../fonts/Telefonica/Bold/TelefonicaWeb-Bold.woff2') format('woff'),
+         url('../fonts/Telefonica/Bold/TelefonicaWeb-Bold.ttf') format('truetype'),
+         url('../fonts/Telefonica/Bold/TelefonicaWeb-Bold.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-ExtraLight';
+    src: url('../fonts/Telefonica/ExtraLight/TelefonicaWeb-ExtraLight.eot');
+    src: url('../fonts/Telefonica/ExtraLight/TelefonicaWeb-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/ExtraLight/TelefonicaWeb-ExtraLight.woff') format('woff'),
+         url('../fonts/Telefonica/ExtraLight/TelefonicaWeb-ExtraLight.woff2') format('woff'),
+         url('../fonts/Telefonica/ExtraLight/TelefonicaWeb-ExtraLight.ttf') format('truetype'),
+         url('../fonts/Telefonica/ExtraLight/TelefonicaWeb-ExtraLight.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-Hand';
+    src: url('../fonts/Telefonica/Hand/TelefonicaWeb-Hand.eot');
+    src: url('../fonts/Telefonica/Hand/TelefonicaWeb-Hand.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/Hand/TelefonicaWeb-Hand.woff') format('woff'),
+         url('../fonts/Telefonica/Hand/TelefonicaWeb-Hand.woff2') format('woff'),
+         url('../fonts/Telefonica/Hand/TelefonicaWeb-Hand.ttf') format('truetype'),
+         url('../fonts/Telefonica/Hand/TelefonicaWeb-Hand.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-Light';
+    src: url('../fonts/Telefonica/Light/TelefonicaWeb-Light.eot');
+    src: url('../fonts/Telefonica/Light/TelefonicaWeb-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/Light/TelefonicaWeb-Light.woff') format('woff'),
+         url('../fonts/Telefonica/Light/TelefonicaWeb-Light.woff2') format('woff'),
+         url('../fonts/Telefonica/Light/TelefonicaWeb-Light.ttf') format('truetype'),
+         url('../fonts/Telefonica/Light/TelefonicaWeb-Light.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-Regular';
+    src: url('../fonts/Telefonica/Regular/TelefonicaWeb-Regular.eot');
+    src: url('../fonts/Telefonica/Regular/TelefonicaWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/Regular/TelefonicaWeb-Regular.woff') format('woff'),
+         url('../fonts/Telefonica/Regular/TelefonicaWeb-Regular.woff2') format('woff'),
+         url('../fonts/Telefonica/Regular/TelefonicaWeb-Regular.ttf') format('truetype'),
+         url('../fonts/Telefonica/Regular/TelefonicaWeb-Regular.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-Regular-Italic';
+    src: url('../fonts/Telefonica/RegularItalic/TelefonicaWeb-RegularItalic.eot');
+    src: url('../fonts/Telefonica/RegularItalic/TelefonicaWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/RegularItalic/TelefonicaWeb-RegularItalic.woff') format('woff'),
+         url('../fonts/Telefonica/RegularItalic/TelefonicaWeb-RegularItalic.woff2') format('woff'),
+         url('../fonts/Telefonica/RegularItalic/TelefonicaWeb-RegularItalic.ttf') format('truetype'),
+         url('../fonts/Telefonica/RegularItalic/TelefonicaWeb-RegularItalic.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-Cap';
+    src: url('../fonts/Telefonica/Cap/TelefonicaCapWeb-Regular.eot');
+    src: url('../fonts/Telefonica/Cap/TelefonicaCapWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/Cap/TelefonicaCapWeb-Regular.woff') format('woff'),
+         url('../fonts/Telefonica/Cap/TelefonicaCapWeb-Regular.woff2') format('woff'),
+         url('../fonts/Telefonica/Cap/TelefonicaCapWeb-Regular.ttf') format('truetype'),
+         url('../fonts/Telefonica/Cap/TelefonicaCapWeb-Regular.svg#webfont') format('svg');
+}
+@font-face{
+    font-family: 'Telefonica-Cap-Regular';
+    src: url('../fonts/Telefonica/CapRegular/telefonicacap-regular-webfont.eot');
+    src: url('../fonts/Telefonica/CapRegular/telefonicacap-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Telefonica/CapRegular/telefonicacap-regular-webfont.woff') format('woff'),
+         url('../fonts/Telefonica/CapRegular/telefonicacap-regular-webfont.woff2') format('woff'),
+         url('../fonts/Telefonica/CapRegular/telefonicacap-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Telefonica/CapRegular/telefonicacap-regular-webfont.svg#webfont') format('svg');
+}
+
+.telefonicaBold {
+    font-family: 'Telefonica-Bold', Arial, sans-serif !important;
+}
+.telefonicaExtraLight {
+    font-family: 'Telefonica-ExtraLight', Arial, sans-serif !important;
+}
+.telefonicaHand {
+    font-family: 'Telefonica-Hand', Arial, sans-serif !important;
+}
+.telefonicaLight {
+    font-family: 'Telefonica-Light', Arial, sans-serif !important;
+}
+.telefonicaRegular {
+    font-family: 'Telefonica-Regular', Arial, sans-serif !important;
+}
+.telefonicaRegularItalic {
+    font-family: 'Telefonica-Regular-Italic', Arial, sans-serif !important;
+}
+.telefonicaCap {
+    font-family: 'Telefonica-Cap', Arial, sans-serif !important;
+}
+.telefonicaCapRegular {
+    font-family: 'Telefonica-Cap-Regular', Arial, sans-serif !important;
+}
+
+
+body {
+    font-size: 1vw;
+}
+
+#myVideo, #myVideoMov {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.esquinado{
+  position: absolute;
+  right: 50px;
+}
+
+.verdeMovistar {
+    color: #5bc500;
+}
+
+.azulMovistar {
+    color: #00a9e0;
+}
+
+.section0copyp {
+    font-size: 2em !important;
+    padding-right: 1em !important;
+}
+
+.navLenguas {
+    background: none;
+    border: none
+}
+
+.linkLogo {
+    position: fixed;
+    left: -15px;
+    top: -15px
+}
+
+.logoImg {
+    max-width: 500px;
+    height: auto
+}
+
+.CalltoActionMobile {
+    width: 40px;
+    margin-top: 30px
+}
+
+.CalltoAction {
+    width: 100px;
+    margin: 5px
+}
+
+.count {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    font-size: 48px!important
+}
+
+.homeText {
+    line-height: 1;
+    text-align: left
+}
+
+.homeText h1 {
+    font-size: 27px!important;
+    font-weight: 600
+}
+
+.homeText p {
+    font-size: 20px!important
+}
+
+.palabraUppercase {
+    text-transform: uppercase
+}
+
+.shareCenter {
+    text-align: center;
+    z-index: 999999;
+}
+
+.shareRight {
+    text-align: right
+}
+
+.shared {
+    position: absolute;
+    top: 200px;
+    right: 45px;
+}
+
+.scroll {
+    width: 60px
+}
+
+.scrollAction {
+    position: fixed;
+    bottom: 10px
+}
+
+.fingerSwipe {
+    left: 1em;
+    bottom: 1em;
+    position: fixed;
+}
+
+.palabra {
+    z-index: 5;
+    border-radius: 2px;
+    padding: 0px;
+    margin-top: 80%;
+}
+
+.palabra h1 {
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: right;
+}
+
+input,
+textarea {
+    opacity: .8
+}
+
+#navbar-collapse-1 {
+    font-size: medium
+}
+
+.section.table {
+    margin: 0
+}
+
+.controlArrow {
+    opacity: .5
+}
+
+.controlArrow:hover {
+    opacity: 1
+}
+
+.sombraMob{
+  margin-left: -30px;
+  max-width: 155px;
+}
+.sombraDesk{
+  left: 0;
+  top: 0;
+  position: absolute;
+  max-width: 290px;
+}
+
+.logoDesk{
+  width: 40%;
+    margin: 10px 0 0 30px;
+}
+
+.logoMobile{
+  width: 40%;
+    margin: 10px 0 0 10px;
+}
+
+@media (max-width: 769px) {
+    .count {
+        font-size: 35px!important;
+        top: 0;
+        right: 0;
+    }
+    .homeText {
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: bottom left; */
+        line-height: 1;
+        text-align: left;
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png);
+        position: absolute;
+        /* top: 110px; */
+        left: 0;
+        bottom: 0;
+        height: 60%;
+        padding-top: 4%;
+        /* text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white, -1px -1px 2px white; */
+    }
+    .homeText h1 {
+        font-size: 16px!important;
+        font-weight: 600;
+        padding-top: 46px;
+    }
+    .homeText p {
+        font-size: 15px!important
+    }
+    .container {
+        margin: 0 10px
+    }
+    h1 {
+        font-size: 26px!important
+    }
+    p,
+    label {
+        font-size: 16px!important
+    }
+
+    .palabraTres{
+      /* text-shadow: 3px 2px 2px white, 0 0 27px white, 0 0 9px white, -1px -1px 2px white; */
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+    h1 {
+        font-size: 34px!important
+    }
+    p,
+    label {
+        font-size: 20px!important
+    }
+
+}
+
+@media (min-width: 981px){
+    h1 {
+        font-size: 46px!important
+    }
+    p,
+    label {
+        font-size: 20px!important
+    }
+}
+
+@media (min-width: 2560px){
+    h1 {
+        font-size: 56px!important
+    }
+    p,
+    label {
+        font-size: 28px!important
+    }
+    .count{
+        font-size: 70px!important
+    }
+    .CalltoAction{
+        width: 200px;
+    }
+    .palabra{
+        right: 200px;
+        position: relative;
+    }
+}

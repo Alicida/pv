@@ -1,0 +1,212 @@
+.section {
+    text-align: center
+}
+#section1,
+#section2,
+#section4,
+#section6,
+#section8,
+#section9,
+#section10,
+#section12,
+#section13,
+#section14,
+#section18,
+#section19,
+.slide {
+    background-size: 60% 55%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#section3,
+#section5,
+#section7,
+#section11,
+#section15,
+#section16,
+#section17,
+#section20 {
+    background-size: 60% 55%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom left, top center;
+}
+
+
+#section1 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/01-palabras-mar-desktop.jpg) ;
+}
+#section2 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/02-palabras-mariposa-desktop.jpg);
+}
+#section3 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/03-palabras-volcan-desktop.jpg);
+}
+#section4 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/04-palabras-noche-desktop.jpg);
+}
+#section5 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/05-palabras-perro-desktop.jpg);
+}
+#section6 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/06-palabras-mujer-desktop.jpg);
+}
+#section7 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/07-palabras-corazon-desktop.jpg);
+}
+#section8 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/08-palabras-sol-desktop.jpg);
+}
+#section9 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/09-palabras-lluvia-desktop.jpg);
+}
+#section10 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/10-palabras-familia-desktop.jpg);
+}
+#section11 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/11-palabras-abrazar-desktop.jpg);
+}
+#section12 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/12-palabras-agua-desktop.jpg);
+}
+#section13 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/13-palabras-casa-desktop.jpg);
+}
+#section14 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/14-palabras-colibri-desktop.jpg);
+}
+#section15 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/15-palabras-chocolate-desktop.jpg);
+}
+#section16 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/16-palabras-beso-desktop.jpg);
+}
+#section17 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/17-palabras-reir-desktop.jpg);
+}
+#section18 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/18-palabras-nube-desktop.jpg);
+}
+#section19 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/19-palabras-flores-desktop.jpg);
+}
+#section20 {
+    background-image: url(../img/permanents/caja-de-texto-desktop-palabras-vivas.png),url(../img/palabras/desktop/20-palabras-senal-desktop.jpg);
+}
+
+#section0 {
+    background-image: url(../img/palabras/desktop/00-palabras-desktop.jpg),
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+@media (max-width: 769px) {
+    #section1,
+    #section2,
+    #section4,
+    #section6,
+    #section8,
+    #section9,
+    #section10,
+    #section12,
+    #section13,
+    #section14,
+    #section18,
+    #section19,
+    .slide {
+        background-size: 100% 55%, cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+    #section3,
+    #section5,
+    #section7,
+    #section11,
+    #section15,
+    #section16,
+    #section17,
+    #section20 {
+        background-size: 100% 55%, cover;
+        background-repeat: no-repeat;
+        background-position: bottom left, top center;
+    }
+
+
+    #section1 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/01-palabras-mar-mobile.jpg)
+    }
+    #section2 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/02-palabras-mariposa-mobile.jpg);
+    }
+    #section3 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/03-palabras-volcan-mobile.jpg);
+    }
+    #section4 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/04-palabras-noche-mobile.jpg);
+    }
+    #section5 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/05-palabras-perro-mobile.jpg);
+    }
+    #section6 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/06-palabras-mujer-mobile.jpg);
+    }
+    #section7 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/07-palabras-corazon-mobile.jpg);
+    }
+    #section8 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/08-palabras-sol-mobile.jpg);
+    }
+    #section9 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/09-palabras-lluvia-mobile.jpg);
+    }
+    #section10 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/10-palabras-familia-mobile.jpg);
+    }
+    #section11 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/11-palabras-abrazar-mobile.jpg);
+    }
+    #section12 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/12-palabras-agua-mobile.jpg);
+    }
+    #section13 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/13-palabras-casa-mobile.jpg);
+    }
+    #section14 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/14-palabras-colibri-mobile.jpg);
+    }
+    #section15 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/15-palabras-chocolate-mobile.jpg);
+    }
+    #section16 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/16-palabras-beso-mobile.jpg);
+    }
+    #section17 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/17-palabras-reir-mobile.jpg);
+    }
+    #section18 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/18-palabras-nube-mobile.jpg);
+    }
+    #section19 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/19-palabras-flores-mobile.jpg);
+    }
+    #section20 {
+        background-image: url(../img/permanents/caja-de-texto-mobile-palabras-vivas.png),url(../img/palabras/mobile/20-palabras-senal-mobile.jpg);
+    }
+
+    #section0 {
+        background-size: 100%, cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-image: url(../img/palabras/mobile/00-palabras-mobile.jpg)
+    }
+}
+.section .bg-content {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 20px;
+    width: 100%;
+    color: #333
+}
